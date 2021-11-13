@@ -1,0 +1,55 @@
+h1{
+	font-size: 70px;
+	color: white;
+	text-align: center;
+	font-family:cursive;
+	text-shadow: 2px 2px #FF0000;
+}
+body{
+	background-image: url('bg2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*background-color: black;*/
+}
+#form{
+	font-size: 30px;
+	margin:auto;
+	text-align: center;
+	width:55%;
+	border:1px solid #ccc;
+	padding:25px;
+	border:3px red solid;
+	color: white;
+}
+#form:hover{
+	color:black;
+}
+#form input[type="date"]{
+	width:30%;
+	
+}
+#form input[type="time"]{
+	width:30%;
+}
+button{
+	background-color:black;
+	color:white;
+	padding:10px 15px;
+	
+}
+button:hover{
+	background-color: black;
+	color:red;
+}
+p{
+	margin-top: 40px;
+	color: white;
+	font-family:georgia;
+	text-align: center;
+	font-size: 130px;
+}
+.val{
+	font-size: 40px;
+	font-family:cursive;
+	/*color:black;*/
+}
